@@ -1,0 +1,442 @@
+:root{
+  --green-600: #4A6049;
+  --green-700: #3d5040;
+  --ink-900: #1F1A17;
+  --brown-600: #7A5230;
+  --sand-100: #F4F1EA;
+  --sand-50: #F7F2EB;
+  --sage-50: #F2F6F1;
+  --paper: #FFFFFF;
+}
+
+a:hover { text-decoration: underline; }
+
+body {
+  margin-top: 0;
+  width: 100vw;
+  background-color: var(--paper);
+  color: var(--ink-900);
+}
+
+header {
+  display: block;
+  width: 100vw;
+  height: 250px;
+  background-color: #f4f1ea;
+  position: fixed;
+  z-index: 100;
+}
+
+.first-area {
+  background-color: #faf7f3;
+  margin-left: -25px;
+  margin-top: -120px;
+}
+
+section {
+  padding: 80px 25px;
+}
+
+#video {
+  display: block;
+  width: 600px;
+  height: 600px;
+  margin: 100px auto 0 auto;
+}
+
+.top-line {
+  height: 10px;
+  width: 100vw;
+  background-color: #4a6049;
+  box-shadow: 0 8px 6px rgba(0, 0, 0, 0.08)
+}
+
+.bottom-line {
+  height: 10px;
+  width: 100vw;
+  background-color: #4a6049;
+  padding-top: 250px;
+}
+
+#header-img {
+  width: 600px;
+  padding-top: 10px;
+}
+
+.logo-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-area {
+  margin-right: 10px;
+}
+
+#delivery-info {
+  scroll-margin-top: 200px;
+  padding-bottom: 20px;
+}
+
+#deliver-title {
+  margin-top: -30px;
+}
+
+#reserve {
+  scroll-margin-top: 200px;
+}
+
+h1 {
+  font-family: Patrick Hand SC;
+  letter-spacing: 2px;
+  font-size: 70px;
+  text-align: center;
+  transform: rotate(-4deg);
+  margin-bottom: 100px;
+  padding-top: 80px;
+  color: var(--ink-900)
+}
+
+#h1-photo {
+  width: 500px;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-family: Work Sans;
+  text-decoration: none;
+  margin: 20px;
+  position: relative;
+  top: 190px;
+  right: 10px;
+  color: var(--green-700);
+  box-shadow: 2px 2px 10px;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+h2 {
+  font-family: Nunito Sans;
+  font-size: 28px;
+  font-weight: 700;
+  scroll-margin-top: 200px;
+}
+
+#bag-details {
+  background-color: #f2f5f0;
+}
+
+#delivery-info {
+  background-color: #edf0ea;
+}
+
+#reserve {
+  background-color: #dde4dd;
+}
+
+.bag-description, .delivery-info {
+  white-space: pre-wrap;
+  line-height: 2;
+}
+
+.material, .colors, .bag-style, .product {
+  font-weight: 520;
+  margin-right: 5px;
+}
+
+p, form {
+  font-family: inter;
+  font-size: 20px;
+}
+
+#reserve h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+}
+
+#delivery-info p:last-child {
+  margin-bottom: 0;
+  }
+
+form {
+  width: 550px;
+  margin: 25px auto 0 auto;
+  padding-bottom: 50px;
+}
+
+.form-border {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+label, fieldset {
+  padding-left: 50px;
+  border: none;
+}
+
+fieldset {
+  margin-bottom: 25px
+}
+
+.basic-info label {
+  display: block;
+  margin-top: 25px;
+}
+
+.basic-info Input {
+  display: block;
+  width: 350px;
+  text-align: center;
+  height: 2em;
+  margin-top: 5px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+input[type="radio"] {
+  transform: scale(1.4);
+  margin: 10px;
+}
+
+.bag-pack {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -80px;
+  margin-bottom: -150px;
+}
+
+.bag-pack img {
+  width: 600px;
+}
+
+
+.bag-style label {
+  display: block;
+  margin-top: 15px;
+  font-weight: normal;
+}
+
+legend {
+  font-weight: 500;
+  padding-left: 50px;
+}
+
+input[type="number"] {
+  height: 1.5em;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 50px auto;
+  width: 50%;
+  border-radius: 8px;
+  height: 2.5rem;
+  font-size:20px;
+  letter-spacing: 1.5px;
+  word-spacing: 1px;
+  font-family: inter;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.photos {
+  height: 600px;
+  border-radius: 20px;
+}
+
+.photo-pack {
+  display: grid;
+  grid-template-columns: repeat(2, 600px);
+  grid-template-rows: repeat(4, 750px);
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  column-gap: 80px;
+}
+
+
+
+/* Media query調整-1024px */
+.logo-area {
+  flex-direction: row;
+}
+
+#header-img {
+  width: 400px;
+  padding-top: 15px;
+}
+
+#header {
+  height: 200px;
+}
+
+.bottom-line {
+  padding-top: 200px;
+}
+
+.nav-link {
+  top: 140px;
+}
+
+@media (max-width: 1024px) {
+  .photo-pack {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    row-gap: 60px;
+  }
+
+  .bag-pack img {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+    .nav-link {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    right: 50%;
+    margin: 20px 0;
+    top: auto;
+  }
+
+  .photos {
+    width: 50%;
+    height: auto;
+
+  #video {
+    width: 70%;
+    height: 400px;
+  }
+
+  .bag-pack img {
+    width: 60%;
+  }
+  
+}
+
+/* Media query調整-768px */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  #header-img {
+  width: auto;
+  height: 110px;
+  padding-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .nav-link {
+    display: flex;
+    justify-content: center;
+    right: 20%;
+    font-size: 20px;
+    margin: 20px 0;
+    top: auto;
+  }
+
+  .bag-pack img {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+
+
+/* Media query調整-550px */
+@media (max-width: 550px) {
+  #header-img {
+  width: auto;
+  height: 80px;
+  padding-top: 55px;
+  padding-right: 20px;
+  padding-left: auto;
+  }
+
+  .nav-area {
+    margin-top: 10px;
+  }
+
+  .nav-link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    right: 20%;
+    font-size: 16px;
+    margin: 15px 0;
+    top: 50%;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .bag-pack {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .photo-pack {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    row-gap: 10px;
+    justify-items: center;
+    justify-content: center;
+  }
+
+  .photos {
+    width: 70%;
+    height: auto;
+    max-width: 350px;
+    border-radius: 12px;
+    display: block;
+  }
+
+  form {
+    width: 90%;
+    margin: 40px auto;
+    font-size: 18px;
+  }
+
+  input {
+    margin: 0 auto;
+    font-size: 15px !important;
+  }
+
+  label {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  fieldset {
+    padding: 0;
+    text-align: center;
+  }
+
+  .basic-info Input {
+  display: block;
+  width: 90%;
+  text-align: center;
+  height: 2em;
+  margin-top: 5px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+  input[type="submit"] {
+    font-size: 1rem !important;
+  }
+}

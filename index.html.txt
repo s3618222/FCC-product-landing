@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fumble Bag Product Landing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+      <div class="top-line">
+      </div>
+      <div class="logo-area">
+      <img id="header-img" src="https://i.postimg.cc/ZnKPSR3N/Gemini-Generated-Image-n188can188can188-Photoroom.png">
+      <div class="nav-area">
+      <nav id="nav-bar">
+        <a class="nav-link" href="#about-bag">Product details</a>
+        <a class="nav-link" href="#delivery-info">Shipping info</a>
+        <a class="nav-link" href="#reserve">Place your order</a>
+      </nav>
+      </div>
+      </div>
+    </header>
+    <div class="bottom-line"></div>
+    <section id="bag-details">
+      <div class="first-area">
+      <h1>Everyday Nylon Shoulder Tote</h1>
+      <img id="h1-photo" src="https://i.postimg.cc/d1qjCj4g/323266666.png">
+      </div>
+      <h2 id="about-bag">About the Bag</h2>
+      <p><span class="product">Product:</span> FUMBLE Everyday Nylon Shoulder Tote</p>
+      <p><span class="material">Material:</span> (#K06163) 100% PV</p>
+      <p><span class="colors">Colors:</span> Black / Roasted Brown</p>
+      <div class="bag-pack">
+      <img id="black-bag" src="https://i.postimg.cc/ncwNLqsZ/Fumble-bag-1-Photoroom.png">
+      <img id="brown-bag" src="https://i.postimg.cc/RhZbS04r/fumble-bag2-Photoroom.png">
+      </div>
+      <p class="bag-description"><span class="bag-style">Style & Mood:</span>
+<span class="bag-content">Carry it your way — over the shoulder, in hand, or tossed casually by your side.
+Lightweight yet structured, it complements your rhythm, whether you're chasing deadlines or drifting through an easy Sunday.
+With the Everyday Tote, style feels effortless, and every outing becomes just a bit more your own.</span>
+    </p>
+      <div class="photo-pack">
+       <img class="photos" id="photo1" src="https://i.postimg.cc/BbWtgby1/01.png">
+       <img class="photos" id="photo2" src="https://i.postimg.cc/pVZtkygz/02.png">
+       <img class="photos" id="photo3" src="https://i.postimg.cc/jdFmkfc9/03.png">
+       <img class="photos" id="photo4" src="https://i.postimg.cc/BbypNT3c/04.png">
+       <img class="photos" id="photo5" src="https://i.postimg.cc/XNhkRgMH/05.png">
+       <img class="photos" id="photo6" src="https://i.postimg.cc/7Y0tXRCm/06.png">
+       <img class="photos" id="photo7" src="https://i.postimg.cc/G24qDgwF/07.png">
+       <img class="photos" id="photo8" src="https://i.postimg.cc/cJHmqkJm/08.png">
+     </div>
+    <iframe id="video" src="https://app.pixverse.ai/home?detail=show&id=364064981889270&platform=web" preload="none" loading="lazy" ></iframe>
+    </section>
+    <section id="delivery-info">
+      <h2 id="deliver-title">How We Deliver</h2>
+      <p class="delivery-info">We deliver your FUMBLE items with care through standard home delivery service.
+Once your order is confirmed, our team prepares and ships your package within 3–5 business days.
+You will receive a tracking number as soon as your parcel is dispatched. 
+If you have special delivery instructions or need assistance with your order, feel free to reach out to our support team - <a href="mailto:FumbleSupport@gmail.com">FumbleSupport</a>.
+We’re here to make sure your experience stays as effortless as your everyday style.
+     </p>
+    </section>
+    <section id="reserve">
+      <h2>Reserve Yours</h2>
+      <form method="post" id="form" action="https://www.freecodecamp.com/email-submit">
+        <div class="form-border">
+        <fieldset class="basic-info">
+          <label for="full-name">Your Name <input id="full-name" name="full-name" type="text" placeholder="e.g. Mike Chang" required /></label>
+          <label for="phone-number">Phone Number <input id="phone-number" name="phone-number" type="tel" placeholder="e.g. 0912345678" pattern="[0-9]{10}" required /></label>
+          <label for="email">Email Address <input id="email" name="email" type="email" placeholder="example@gmail.com" required /></label>
+          <label for="adress">Shipping Adress <input id="adress" name="address" type="text" placeholder="e.g. No. 12, Zhongxiao East Rd., Taipei City" required /></label>
+        </fieldset>
+        <fieldset class="bag-style">
+          <legend>Choose Your Bag Color</legend>
+          <label for="bag-black">Black <input id="bag-black" name="bag-color" type="radio" checked /></label>
+          <label for="bag-brown">Roasted Brown <input id="bag-brown" name="bag-color" type="radio" /></label>
+          <label for="quantity">Quantity: <input id="quantity" name="quantity" type="number" min="0" max="10" /></label>
+        </fieldset>
+        <input id="submit" type="submit" value="Send My Request">
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
